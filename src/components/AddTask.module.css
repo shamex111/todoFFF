@@ -1,0 +1,56 @@
+.addTaskDiv{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.addTaskP{
+    color: hsl(0, 0%, 50%);
+}
+.addTaskP:hover{
+    color:#dc4c3e;
+    cursor: pointer;
+}
+.addTaskButton{
+    background-color:#ffffff00;
+    border:#ffffff00;
+    font-size: 1.3rem;
+    color:#dc4c3e;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-top: auto;
+    font-weight: 100;
+}
+
+.addTaskButton:hover{
+    color:#fff;
+    background-color: #dc4c3e;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.imgNothing{
+    /* border: 1px solid; */
+    width: 575px;
+    height: 300px;
+}
+.textImg{
+    margin-top: 80px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline-block;
+}
+.textImgSpan{
+    color:#dc4c3e;
+    transition:300ms;
+    height: 25px;
+    display: inline-block;
+}
+.textImgSpan:hover {
+    color:#ff0000;
+    font-weight: 600;
+    cursor: pointer;
+}

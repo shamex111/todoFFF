@@ -1,0 +1,80 @@
+.createTaskDiv{
+    border:1px #e6e6e6 solid;
+    width: 800px;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+.createTaskForm{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 46px;
+}
+.createTaskDiv:focus{
+    border: #e6e6e6;
+}
+
+.nameTask{
+margin-top: 20px;
+margin-left: 20px;
+font-weight: 500;
+font-size: 16px;
+border: none;
+}
+.nameTask:focus, .description:focus{
+outline: none;
+}
+.description{
+    margin-left: 20px;
+    font-size: 14px;
+    border: none;
+}
+textarea {
+    resize: none;
+}
+
+.createTaskBottom{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+
+}
+.escape{
+    color:#1a1a1a;
+    border:none;
+    width: 70px;
+    border-radius: 7px;
+    font-weight: 50;
+    height: 32px;
+    margin-left: 580px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #f6f6f6;
+}
+.escape:hover{
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+.enter{
+    width: 130px;
+    height: 32px;
+    border:none;
+    color: #fff;
+    text-align: center;
+    background-color: #db4c3e;
+    border-radius: 7px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.enter:hover{
+    cursor: pointer;
+    background-color: #c3392c;
+    
+}
+.hr{
+    border: 1px solid #e6e6e6;
+
+}
+/* #b8b8b8 */
